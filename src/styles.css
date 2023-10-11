@@ -1,0 +1,45 @@
+button {
+	unset: all;
+	border-radius: 3px;
+	border: none;
+}
+
+.flex {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.gap-2 {
+	gap: 1rem;
+}
+
+.bg-black {
+	background-color: #222;
+	border: black solid 1px;
+}
+
+.text-white {
+	color: white;
+}
+
+.hover-bg-white:hover {
+	border: black solid 1px;
+	background-color: white;
+}
+
+.hover-text-black:hover {
+	color: black;
+}
+
+.hover-bg-dark:hover {
+	background-color: black;
+}
+
+.px-2 {
+	padding-inline: 0.5rem;
+}
+
+.py-1 {
+	padding-block: 0.25rem;
+}
