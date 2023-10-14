@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "URL Opener",
-  "version": "1.0",
+  "version": "1.2",
   "description": "Open a specific URL with a shortcut.",
   "permissions": ["activeTab", "tabs", "storage"],
   "background": {

@@ -98,8 +98,8 @@ document.addEventListener("defined-sites-change", (e) => {
         `<div class="flex gap-2">
           <div>${url}</div>
           <div>${shortcut}</div>
-          <button class="px-2 py-1 bg-black text-white hover-bg-white hover-text-black">edit</button>
-          <button class="px-2 py-1 bg-black text-white hover-bg-dark">eliminar</button>
+          <button class="edit px-2 py-1 bg-black text-white hover-bg-white hover-text-black">edit</button>
+          <button class="eliminar px-2 py-1 bg-black text-white hover-bg-dark">delete</button>
         </div>`,
     )
     .join("\n");
